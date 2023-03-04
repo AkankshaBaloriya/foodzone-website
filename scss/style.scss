@@ -1,0 +1,13 @@
+@use'custom';
+/* components */
+@use'components/mixin';
+@use'components/button';
+
+
+/* sections */
+@use'sections/nav-bar';
+@use'sections/services';
+@use 'sections/intro';
+@use'sections/order';
+@use'sections/contact';
+@use'sections/footer';

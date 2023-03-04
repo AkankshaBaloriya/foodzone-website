@@ -1,0 +1,15 @@
+@use '../custom'as*;
+@use '../components/mixin'as*;
+
+.menu{
+    @include gradient;
+    position:fixed;
+
+    a{
+        color:rgb(3, 3, 3);
+
+        &:hover{
+            color: rgb(252, 252, 252);
+        }
+    }
+}

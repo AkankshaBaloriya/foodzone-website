@@ -1,0 +1,46 @@
+@use"../custom"as*;
+@use"../components/mixin"as*;
+.order{
+    margin-top: 4rem;
+
+.left{
+    @include gradient;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+    h1,p{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }.img{
+        background-image: url(/images/manu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    li{
+        color: white;
+        padding-left: 3rem;
+        margin-top: 0.4rem;
+    }
+    }
+
+}
+.right{
+     background-color: rgba(247, 184, 184, 0.308);
+     border: 1px solid white;
+     border-radius: 10px;
+
+     h1{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    input{
+        margin-bottom: 1rem;
+    }
+}
+}
+.order-1{
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+ padding-left: 13rem !important;
+ padding-right: 13rem !important;   
+}
